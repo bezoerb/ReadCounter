@@ -1,0 +1,14 @@
+'Futjikato.ReadCounter:CounterMixin':
+  abstract: TRUE
+  ui:
+    inspector:
+      groups:
+        readcounter:
+          label: 'Read Counter'
+  properties:
+    readcounter:
+      type: integer
+      ui:
+        label: 'Read'
+        inspector:
+          group: readcounter

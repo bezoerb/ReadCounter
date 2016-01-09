@@ -1,0 +1,9 @@
+-
+  name: 'Read Counter Tracking'
+  uriPattern: 'readcounter/tracking'
+  defaults:
+    '@package':    'Futjikato.ReadCounter'
+    '@controller': 'Tracking'
+    '@action':     'track'
+    '@format':     'json'
+  httpMethods: ['GET']
