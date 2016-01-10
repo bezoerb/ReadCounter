@@ -1,0 +1,5 @@
+prototype(Futjikato.ReadCounter:TrackingElement) < prototype(TYPO3.Neos:Content) {
+    templatePath = 'resource://Futjikato.ReadCounter/Private/Templates/NodeTypes/TrackingElement.html'
+
+    trackingPath = ${q(documentNode).property('_path')}
+}

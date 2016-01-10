@@ -31,4 +31,24 @@ Every page that should be countable must be extended by the `Futjikato.ReadCount
 ```
 
 The mixin extends the page with a `readcounter` property you can use as a sort property or render it somewhere
-on the page.
+on the page. In addtion the mixin also adds a child node to render the tracking code.
+
+Here an exaple typescript page configuration:
+
+```
+prototype(Futjikato.DemoSite:CountedPage.Page) < prototype(Futjikato.DemoSite:Page) {
+    body {
+        templatePath = 'resource://Futjikato.DemoSite/Private/Templates/Page/CountedPage.html'
+        parts {
+            // used to render the current page read counter
+            counter = ${q(documentNode).property('readcounter')}
+        }
+        content {
+            // render a simple script tag that will track the page view
+            trackingcode = Futjikato.ReadCounter:TrackingElement {
+                nodePath = 'trackingcode'
+            }
+        }
+    }
+}
+```

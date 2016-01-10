@@ -12,3 +12,12 @@
         label: 'Read'
         inspector:
           group: readcounter
+  childNodes:
+    trackingcode:
+      type: 'Futjikato.ReadCounter:TrackingElement'
+
+'Futjikato.ReadCounter:TrackingElement':
+  superTypes:
+    'TYPO3.Neos:Content': true
+  ui:
+    label: 'Pagecounter Tracking'
