@@ -2,6 +2,7 @@
     "name": "futjikato/readcounter",
     "type": "typo3-flow-package",
     "description": "Package to provide a very simple mechanism to count page impressions and save them in a page property.",
+    "license": "MIT",
     "require": {
         "typo3/flow": "*"
     },
