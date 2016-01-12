@@ -17,7 +17,7 @@ In your main `Configuration/Routes.yaml` add the following snippet to activate t
       package: 'Futjikato.ReadCounter'
 ```
 
-The route to call via ajax ist `/readcounter/tracking?node=<nodePath>`.
+The route to call via ajax is `/readcounter/tracking?node=<nodePath>`.
 
 Every page that should be countable must be extended by the `Futjikato.ReadCounter:CounterMixin` mixin:
 
