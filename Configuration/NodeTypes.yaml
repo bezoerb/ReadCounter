@@ -4,12 +4,12 @@
     inspector:
       groups:
         readcounter:
-          label: 'Read Counter'
+          label: 'i18n'
   properties:
     readcounter:
       type: integer
       ui:
-        label: 'Read'
+        label: 'i18n'
         inspector:
           group: readcounter
   childNodes:
@@ -20,4 +20,4 @@
   superTypes:
     'TYPO3.Neos:Content': true
   ui:
-    label: 'Pagecounter Tracking'
+    label: 'i18n'

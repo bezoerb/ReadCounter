@@ -3,3 +3,7 @@ TYPO3:
     typoScript:
       autoInclude:
         'Futjikato.ReadCounter': TRUE
+    userInterface:
+      translation:
+        autoInclude:
+          'Futjikato.ReadCounter': ['NodeTypes/*']
