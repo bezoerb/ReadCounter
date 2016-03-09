@@ -10,5 +10,8 @@
         "psr-0": {
             "Futjikato\\ReadCounter": "Classes"
         }
+    },
+    "extra": {
+        "marketplace-account": "m.spindelhirn@cashiers-check.de"
     }
 }
